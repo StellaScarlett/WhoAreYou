@@ -1,4 +1,23 @@
+/* Universal Styles */
+
 h1 {
   font-family: Georgia;
   color: maroon;
 }
+
+.body p {
+  color: #333333;
+  font-weight: 100;
+  line-height: 34px;
+  width: 90%;
+  margin-top: 18px;
+}
+
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+}
+
+
