@@ -2,22 +2,36 @@
 
 h1 {
   font-family: Georgia;
-  color: maroon;
+  color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0 122px;
+    padding: 0 50px;
+}
+
+head{
+    font-family: 'Josefin Sans', sans-serif;
+    color:cornsilk;
+    font-size: 50px;
+    font-weight: 50;
 }
 
 .body p {
   color: #333333;
   font-weight: 100;
   line-height: 34px;
-  width: 90%;
-  margin-top: 18px;
+  width: 50%;
+  text-align: left;
+  margin-top: 20px;8p
+  padding: 10px 50px;
 }
 
 .header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
+  background-image: url("http://www.desktopimages.org/pictures/2012/1009/1/anonymous-black-tie-monochrome-suit-up-black-background-2560x1440-wallpaper-575343.jpg");
   background-position: center;
   background-size: cover;
   height: 320px;
+    
 }
 
 
