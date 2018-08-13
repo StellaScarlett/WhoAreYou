@@ -5,7 +5,11 @@
     <title>Who are You</title>
     <link href="style.css" type="text/css" rel="stylesheet">
     <meta charset="utf-8">
+<!--      google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<!--      social media btns-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
   <body>
@@ -38,7 +42,7 @@
 		<section>
 				<h1>Identity</h1>
 				<span>
-				<h4>The fact of being who or what a person or thing is..</h4>
+				<h4>The fact of being who or what a person or thing is.</h4>
 				</span>
 		</section>
 	</header>
@@ -51,7 +55,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 		<section>
 				<h1>Authenticity</h1>
 				<span>
-				<h4>The fact of being who or what a person or thing is..</h4>
+				<h4>Of undisputed origin and not a copy; genuine.<h4>Made or done in the traditional or original way, or in a way that faithfully resembles an original.</h4></h4>
 				</span>
 		</section>
 	</header>
@@ -66,7 +70,7 @@ It is a long established fact that a reader will be distracted by the readable c
 		<section>
 				<h1>Falseness</h1>
 				<span>
-				<h4>The fact of being who or what a person or thing is..</h4>
+                    <h4>Not according with truth or fact; incorrect.</h4><h4>Made to imitate something in order to deceive.</h4>
 				</span>
 		</section>
 	</header>
@@ -83,7 +87,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 		<section>
 				<h1>Anonymity</h1>
 				<span>
-				<h4>The fact of being who or what a person or thing is..</h4>
+				<h4>Not identified by name; of unknown name.</h4>
 				</span>
 		</section>
 	</header>
@@ -93,6 +97,39 @@ Where can I get some?
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
         </p>
     </div>
+      
+<!--      RETURN TO TOP BTN-->
+      
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+      
+<!--      SOCIAL MEDIA BTNS-->
+      
+      <div>
+      <!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+          </div>
     
   </body>
   
