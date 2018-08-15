@@ -250,3 +250,6 @@ img {
     width: 360px;
     display: block; margin: auto;  
 }
+
+.center { display: block; margin: 0 auto; 
+}
