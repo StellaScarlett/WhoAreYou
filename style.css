@@ -235,7 +235,7 @@ header{
     font-size: 18px;
     cursor: pointer;
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     bottom: 500px;
     right: 120px;
     
